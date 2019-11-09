@@ -28,16 +28,17 @@ function askquestion(askedq,question,lvl)  % Ask questions of the given level
   disp('Level invalid');
   return;
   else
-  
-        questopts=not(cell2mat(question(:,4))==lvl);  
+  %Identifying questions that are invalid
+        questopts=(cell2mat(question(:,4))==lvl);
+        
       if sum(questopts)>0   % Questions of chosen level exist
         % Do nothing
         
       else   % Questions of selected level do not exists. Opening up all questions of lower level
         
-                questopts=not(cell2mat(question(:,4))<lvl);  
+                questopts=(cell2mat(question(:,4))<lvl);  
       end
-      invalid_idx=find(questopts);  % Index of zeros
+      invalid_idx=find(not(questopts));  % Index of zeros
 end
   
   
@@ -45,13 +46,29 @@ end
  r_tmp=randperm(length(question));      % Randomly choosing a questionif ~isempty(askedq)||~isempty(invalid_idx)r1=setdiff(r_tmp,invalid_idx);   % Eliminating asked questions or invalid questions
 r=setdiff(r1,askedq);
 if isempty(r)
-  % If all lowest level questions are asked, lowest level qs are removed from askedq
+  % Lower level questions are asked
+  lwr_lvls=(cell2mat(question(:,4))<lvl);  
+  next_lowest_lvl=max(cell2mat(question(lwr_lvls,4)));  
+  % If all lowest level questions are asked, lowest level qs are removed from asked  
   %lowest level questions are repeated
+  if isempty(next_lowest_lvl)
+    next_lowest_lvl=min(cell2mat(question(:,4)));
+  endif
   lowestq=cell2mat(question(:,4))==min(cell2mat(question(:,4)));
-  lowestq_idx=find(lowestq);
-  askedq=setdiff(askedq,lowestq_idx);
+    if next_lowest_lvl==min(cell2mat(question(:,4)))
+      lowestq_idx=find(lowestq);
+      askedq=setdiff(askedq,lowestq_idx);
+      askquestion(askedq,question,next_lowest_lvl);
+    else
+      askquestion(askedq,question,next_lowest_lvl);
+      return;
+    endif
 endif
-r=setdiff(r1,askedq);endifnextq=r(1);askedq=[askedq,nextq];% create an empty dialog window titled 'Dialog Example'h = dialog ("name", "Question");q=text("parent",h,..."string",question{nextq,1},"fontsize",45);% create a button (default style)b1 = uicontrol (h, "string", num2str(question{nextq,2}{1}),... "position",[10 10 100 40],"callback",...
+r=setdiff(r1,askedq);endifnextq=r(1);askedq=[askedq,nextq];
+
+h=findall("Tag","h");
+delete(h);
+% create an empty dialog window titled 'Dialog Example'h = dialog ("name", "Question","Tag","h");q=text("parent",h,..."string",question{nextq,1},"fontsize",45);% create a button (default style)b1 = uicontrol (h, "string", num2str(question{nextq,2}{1}),... "position",[10 10 100 40],"callback",...
  {@anschoice,num2str(question{nextq,2}{1}),askedq,question,nextq,h}); b2 = uicontrol (h, "string", num2str(question{nextq,2}{2}),... "position",[135 10 100 40],"callback",...
  {@anschoice,num2str(question{nextq,2}{2}),askedq,question,nextq,h}); b3 = uicontrol (h, "string", num2str(question{nextq,2}{3}),... "position",[260 10 100 40],"callback",...
  {@anschoice,num2str(question{nextq,2}{3}),askedq,question,nextq,h}); b4 = uicontrol (h, "string", num2str(question{nextq,2}{4}),... "position",[385 10 100 40],"callback",...
