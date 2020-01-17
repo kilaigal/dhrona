@@ -32,13 +32,6 @@ function anschoice(~,~,sel,askedq,question,nextq,h)
   
     if strcmp(sel,num2str(question{nextq,3})) % Answer is correct
     
-    if sum(qlvl_mat>curlvl)>0
-    % Next higher level or max level available
-    next_lvl=min(qlvl_mat(qlvl_mat>curlvl));
-    else
-    next_lvl=max(qlvl_mat);
-    endif
-    
     % Update lvls
     
     % Answered q drops a level
@@ -52,25 +45,55 @@ function anschoice(~,~,sel,askedq,question,nextq,h)
     if min(cell2mat(question(:,4)))<0
         corr=abs(min(cell2mat(question(:,4))));
         question(:,4)=num2cell(cell2mat(question(:,4))+abs(min(cell2mat(question(:,4)))));
-        next_lvl=next_lvl+corr;
     endif
 
 %Save 
 pth=pwd;
 save ([pth "/question.txt"], "question");
 
+%updating 
+  qlvl_mat=cell2mat(question(:,4));
+
+    if sum(qlvl_mat>curlvl)>0
+    % Next higher level or max level available
+    next_lvl=min(qlvl_mat(qlvl_mat>curlvl));
+    else
+    next_lvl=max(qlvl_mat);
+    endif
     
+
+disp(strcat("next_lvl=",num2str(next_lvl)));
 %askquestion    
           askquestion(askedq,question,next_lvl);
 
     
     else   % Answer is wrong
-    questopts=cell2mat(question(:,4))<curlvl;
+  
     
-    if sum(questopts)>0   % Higher level question exists
-      askquestion(askedq,question,curlvl-1);
+    % Update lvls
+    
+    % Answered q drops a level
+    question{nextq,4}=curlvl+penalty;
+    % Lower level questions drop 2x lower
+    lwl_idx=find(qlvl_mat>curlvl);
+    question(lwl_idx,4)=num2cell(cell2mat(question(lwl_idx,4))+(penalty));
+
+%Save 
+pth=pwd;
+save ([pth "/question.txt"], "question");
+
+  %updating
+      qlvl_mat=cell2mat(question(:,4));
+
+    if sum(qlvl_mat<curlvl)>0
+    % Next lower level or min level available
+    next_lvl=max(qlvl_mat(qlvl_mat<curlvl));
     else
-    askquestion(askedq,question,curlvl);   % Ask question of same level
+    next_lvl=min(qlvl_mat);
     endif
+    
+%askquestion    
+          askquestion(askedq,question,next_lvl);
+    
   end
 %num2str(question{3})endfunction

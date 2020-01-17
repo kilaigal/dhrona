@@ -23,11 +23,12 @@
 ## Author: Arvind <arvind@NishArvs-MacBook-Pro.local>
 ## Created: 2019-11-02
 
-function askquestion(askedq,question,lvl)  % Ask questions of the given level
-  if lvl< min(cell2mat(question(:,4)))   % lvl is lower than the lowest available question
-  disp('Level invalid');
-  return;
-  else
+function askquestion(askedq,question,lvl)
+disp(strcat("lvl=",num2str(lvl)));
+
+lvl=max(lvl,min(cell2mat(question(:,4))));
+lvl=min(lvl,max(cell2mat(question(:,4))));
+  
   %Identifying questions that are invalid
         questopts=(cell2mat(question(:,4))==lvl);
         

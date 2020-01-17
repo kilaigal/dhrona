@@ -1,0 +1,1619 @@
+{"allRoundData":[
+  {
+    "questionType": 0,
+    "questionID": 70203001,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Which of these fibers is obtained from animals?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Wool",
+    "answerChoices": [
+      "Cotton",
+      "Wool",
+      "Jute",
+      "Hemp",
+      "Nylon",
+      "Rayon"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203002,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 8,
+    "questionText": "Which of these is not a natural fibre?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Nylon",
+    "answerChoices": [
+      "Cotton",
+      "Wool",
+      "Jute",
+      "Hemp",
+      "Nylon",
+      "Silk"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203003,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Which part of sheep is also called fleece?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Hair",
+    "answerChoices": [
+      "Skin",
+      "Nails",
+      "Horns",
+      "Hair",
+      "Flesh"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203004,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Where do silk fibres come from?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Cocoons",
+    "answerChoices": [
+      "Cocoons",
+      "Wings",
+      "Droppings",
+      "Hair",
+      "Leaves",
+      "Webs"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203005,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Which of these animals yield wool producing fibres?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "All of the above",
+    "answerChoices": [
+      "Yak",
+      "Sheep",
+      "Goat",
+      "All of the above"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203006,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 5,
+    "questionText": "Why do certain animals have a lot of hair?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "To keep warm",
+    "answerChoices": [
+      "To keep cool",
+      "To keep warm",
+      "To weigh more",
+      "To look better",
+      "To hunt better",
+      "To camouflage"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203007,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "How does more hair help keep animals warm?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "By trapping air",
+    "answerChoices": [
+      "By trapping air",
+      "By weighing more",
+      "By camouflaging",
+      "By shedding often",
+      "By creating friction"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203008,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Is air a good conductor of heat?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "No",
+    "answerChoices": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203009,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 7,
+    "questionText": "Which of these is not a good conductor of heat?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Air",
+    "answerChoices": [
+      "Iron",
+      "Copper",
+      "Silver",
+      "Air",
+      "Gold",
+      "Steel"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203010,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "Sheep survive in very cold climate in mountain tops. What helps keep them warm?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Hair",
+    "answerChoices": [
+      "Food",
+      "Hair",
+      "Thick skin",
+      "Horns",
+      "Exercise "
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203011,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "How many types of fibres make up sheep's fleece?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": 2,
+    "answerChoices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203012,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What is the texture of beard hair for sheep?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Coarse",
+    "answerChoices": [
+      "Coarse",
+      "Fine soft"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203013,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What is the texture of under-hair close to the skin of sheep?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Fine soft",
+    "answerChoices": [
+      "Coarse",
+      "Fine soft"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203014,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Which type of hair provides the fibres for wool?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Fine Hair",
+    "answerChoices": [
+      "Coarse Hair",
+      "Fine Hair"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203015,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "What is the process of selecting parents for obtaining special characters in their offspring called?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Selective Breeding",
+    "answerChoices": [
+      "Random Breeding",
+      "Freelance Breeding",
+      "Hobby Breeding",
+      "Selective Breeding",
+      "Seclusion Breeding"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203016,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "What is the most commonly available wool?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Sheep Wool",
+    "answerChoices": [
+      "Sheep Wool",
+      "Goat Wool",
+      "Yak Wool",
+      "Illama Wool",
+      "Alpaca Wool",
+      "Camel Wool"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203017,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "Where is Yak wool common?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Tibet",
+    "answerChoices": [
+      "Jammu and Kashmir",
+      "Tamilnadu",
+      "Assam",
+      "Tibet",
+      "South America",
+      "Africa"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203018,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "What animal's hair is used to make mohair wool?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Angora Goats",
+    "answerChoices": [
+      "Yak",
+      "Sheep",
+      "Angora Goats",
+      "Camel",
+      "Illama",
+      "Alpaca"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203019,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 7,
+    "questionText": "Where are Angora goats commonly found?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Jammu and Kashmir",
+    "answerChoices": [
+      "Rajasthan",
+      "Gujarat",
+      "Tamilnadu",
+      "Jammu and Kashmir",
+      "Kerala",
+      "West Bengal"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203020,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 8,
+    "questionText": "If you wanted to buy mohair woolen shawl, where will you go?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Jammu and Kashmir",
+    "answerChoices": [
+      "Rajasthan",
+      "Gujarat",
+      "Tamilnadu",
+      "Jammu and Kashmir",
+      "Kerala",
+      "West Bengal"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203021,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 8,
+    "questionText": "What animal's fleece is used to make fine shawls called pashmina shawls?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Kashmiri Goat",
+    "answerChoices": [
+      "Angora Goat",
+      "Kashmiri Goat",
+      "Barbari Goat",
+      "Jamnapari Goat",
+      "Damascus Goat"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203022,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 2,
+    "questionText": "A north indian animal's fleece is used to make fine shawls called pashmina shawls.What is that?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Kashmiri Goat",
+    "answerChoices": [
+      "Angora Goat",
+      "Kashmiri Goat",
+      "Barbari Goat",
+      "Jamnapari Goat",
+      "Damascus Goat"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203023,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 2,
+    "questionText": "Which of these animals is not used for wool manufacture?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Cats",
+    "answerChoices": [
+      "Sheep ",
+      "Goats",
+      "Camel",
+      "Cats",
+      "Illama",
+      "Yak"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203024,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "Where are Illamas commonly found?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "South America",
+    "answerChoices": [
+      "North America",
+      "South America",
+      "Africa",
+      "Australia",
+      "Europe",
+      "Asia"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203025,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "Where are Alpacas commonly found?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "South America",
+    "answerChoices": [
+      "North America",
+      "South America",
+      "Africa",
+      "Australia",
+      "Europe",
+      "Asia"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203026,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 2,
+    "questionText": "Where in India are sheep commonly seen?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "North India",
+    "answerChoices": [
+      "North India",
+      "South India"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203027,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Which of these states is sheep rearing common",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "All of the above",
+    "answerChoices": [
+      "Himachal Pradesh",
+      "Arunachal Pradesh",
+      "Sikkim",
+      "Punjab",
+      "All of the above",
+      "Gujarat"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203028,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 5,
+    "questionText": "What other animal is similar to sheep in its feeding habit?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Cows",
+    "answerChoices": [
+      "Bears",
+      "Lions",
+      "Dogs",
+      "Cats",
+      "Cows",
+      "Tigers"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203029,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What is usually ensured by selective breeding sheep?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "All of the above",
+    "answerChoices": [
+      "Thick Hair",
+      "Good Quality Wool",
+      "Large Quantity of Wool",
+      "All of the above"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203030,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "What is usually ensured by selective breeding sheep?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Thick Hair",
+    "answerChoices": [
+      "Thick Hair",
+      "More offsprings",
+      "Heavier Offsprings",
+      "All of the above"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203031,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What are reared sheep usually fed?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "All of the above",
+    "answerChoices": [
+      "Corn",
+      "Jowar",
+      "Oil Cakes",
+      "All of the above"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203032,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 5,
+    "questionText": "What is the first step in processing fibres into wool?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Shearing",
+    "answerChoices": [
+      "Shearing",
+      "Scouring",
+      "Sorting",
+      "Cleaning",
+      "Dyeing",
+      "Rolling"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203033,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What is shearing process in wool manufacture?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Removing fleece",
+    "answerChoices": [
+      "Removing fleece from animal",
+      "Cleaning process",
+      "Sorting process",
+      "Dyeing process",
+      "Rolling process"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203034,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What process is similar to barbers shaving our hair?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Shearing",
+    "answerChoices": [
+      "Shearing",
+      "Cleaning",
+      "Scouring",
+      "Dyeing",
+      "Rolling"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203035,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 7,
+    "questionText": "Which of these months does shearing process likely to happen?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "May",
+    "answerChoices": [
+      "December",
+      "November",
+      "January",
+      "May"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203036,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "Which season does shearing process happen?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Summer",
+    "answerChoices": [
+      "Winter",
+      "Summer",
+      "Rainy",
+      "All of the above"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203037,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "Why do sheep herders shear sheep in hot weather?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Sheep do not need wool to keep warm",
+    "answerChoices": [
+      "Easier to dry",
+      "Weighs more from sweat",
+      "Sheep do not need wool to keep warm",
+      "Sheep are camouflaged in winter",
+      "Sheep hibernate in winter"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203038,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Why does shearing not hurt the animal?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Top layer of skin is dead",
+    "answerChoices": [
+      "Top layer of skin is dead",
+      "They have thick skin",
+      "Shearing can only happen on dead animals",
+      "They are medicated"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203039,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Can a sheep that was sheared this summer produce more wool next year?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Yes",
+    "answerChoices": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203040,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "What is step two in the process of making wool?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Scouring",
+    "answerChoices": [
+      "Shearing",
+      "Scouring",
+      "Sorting",
+      "Cleaning",
+      "Dyeing",
+      "Rolling"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203041,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "What is scouring process in wool manufacture?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Cleaning process",
+    "answerChoices": [
+      "Removing fleece from animal",
+      "Cleaning process",
+      "Sorting process",
+      "Dyeing process",
+      "Rolling process"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203042,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "What is the process of  removing grease, dust and dirt from sheared fleece called?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Scouring",
+    "answerChoices": [
+      "Shearing",
+      "Scouring",
+      "Sorting",
+      "Cleaning",
+      "Dyeing",
+      "Rolling"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203043,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "In recent times, how is scouring process done usually?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Using Machines",
+    "answerChoices": [
+      "Manually",
+      "Using Machines"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203044,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "What is step three in the process of making wool?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Sorting",
+    "answerChoices": [
+      "Shearing",
+      "Scouring",
+      "Sorting",
+      "Cleaning",
+      "Dyeing",
+      "Rolling"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203045,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What is the process of separating fleece according to texture called?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Sorting",
+    "answerChoices": [
+      "Shearing",
+      "Scouring",
+      "Sorting",
+      "Cleaning",
+      "Dyeing",
+      "Rolling"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203046,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "What is sorting process process in wool manufacture?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Separating by textures process",
+    "answerChoices": [
+      "Removing fleece from animal",
+      "Cleaning process",
+      "Separating by textures process",
+      "Dyeing process",
+      "Rolling process"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203047,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What are small fluffy fibres found on woolen sweaters called?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Burrs",
+    "answerChoices": [
+      "Burrs",
+      "Fleece",
+      "Fur",
+      "Wire",
+      "Fibre"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203048,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Which of these are natural colors of fleece?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "All of the above",
+    "answerChoices": [
+      "White",
+      "Black",
+      "Brown",
+      "All of the above"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203049,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "What is the step before straightening the wool and rolling into a yarn?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Dyeing",
+    "answerChoices": [
+      "Shearing",
+      "Scouring",
+      "Sorting",
+      "Cleaning",
+      "Rescouring",
+      "Dyeing"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203050,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 5,
+    "questionText": "What is the last step of processing wool?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Rolling",
+    "answerChoices": [
+      "Shearing",
+      "Scouring",
+      "Sorting",
+      "Cleaning",
+      "Dyeing",
+      "Rolling"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203051,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 8,
+    "questionText": "Which step of the wool making process has some occupational hazards attached to it?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Sorting",
+    "answerChoices": [
+      "Shearing",
+      "Scouring",
+      "Sorting",
+      "Cleaning",
+      "Rescouring",
+      "Dyeing"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203052,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "What disease do woolsorters sometimes get?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Sorter's disease",
+    "answerChoices": [
+      "Sorter's disease",
+      "Rabies",
+      "Trichinosis",
+      "Blastomycosis"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203053,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 7,
+    "questionText": "What bacteria causes sorter's disease?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Anthrax",
+    "answerChoices": [
+      "Anthrax",
+      "Salmonella",
+      "Clostridium tetani",
+      "trichomoniasis",
+      "Legionella"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203054,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 7,
+    "questionText": "What type of disease is sorter's disease?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Bacterial",
+    "answerChoices": [
+      "Bacterial",
+      "Fungal",
+      "Viral",
+      "parasitic",
+      "protozoan"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203055,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "When workers in any industry face a risk, it is called...",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Occupational Hazards",
+    "answerChoices": [
+      "Workplace Harassment",
+      "Fatigue",
+      "Work-life imbalance",
+      "Occupational Hazards",
+      "Workplace Violence ",
+      "Work Ethics"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203056,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 1,
+    "questionText": "What are larvae from silk moth eggs called?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Silkworms",
+    "answerChoices": [
+      "Silkworms",
+      "Earthworms",
+      "Roundworms",
+      "Flatworms",
+      "Leeches"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203057,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What is the stage after a silk moth egg hatches called?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Caterpillar",
+    "answerChoices": [
+      "Caterpillar",
+      "Pupa",
+      "Worm",
+      "Centipede",
+      "Silk Moth"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203058,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "What is the stage after being a caterpillar in the silk worm life cycle?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Caterpillar",
+    "answerChoices": [
+      "Caterpillar",
+      "Pupa",
+      "Worm",
+      "Larvae",
+      "Silk Moth"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203059,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "What is rearing of silkworms for silk production called?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Sericulture",
+    "answerChoices": [
+      "Horticulture",
+      "Sericulture",
+      "Vermiculture",
+      "Apiculture",
+      "Floriculture",
+      "Silviculture"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203060,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "What does a caterpillar secrete to make fibres?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Protein",
+    "answerChoices": [
+      "Minerals",
+      "Vitamins",
+      "Protein",
+      "Starch",
+      "Sweat",
+      "Water"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203061,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "What is the covering of a pupa called?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Cocoon",
+    "answerChoices": [
+      "Cover",
+      "Sheet",
+      "Cocoon",
+      "Skin",
+      "Epidermis"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203062,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 5,
+    "questionText": "What stage is silk fibres got during the silk worm life cycle?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Pupa",
+    "answerChoices": [
+      "Egg",
+      "Larvae",
+      "Pupa",
+      "Moth"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203063,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "Different variety of silk moths yield different textured silk.",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "TRUE",
+    "answerChoices": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203064,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "What is the most common silk moth in India?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Mulberry Silk Moth",
+    "answerChoices": [
+      "Tassar Silk Moth",
+      "Mulberry Silk Moth",
+      "Kosa Silk Moth",
+      "Mooga Silk Moth",
+      "Eri Silk Moth"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203065,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 8,
+    "questionText": "Which country is the largest silk producer in the world?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "China",
+    "answerChoices": [
+      "Saudi Arabia",
+      "India",
+      "Sri Lanka",
+      "China",
+      "Thailand"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203066,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "How many eggs do silk moths lay at a time?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Hundreds",
+    "answerChoices": [
+      "One",
+      "Tens",
+      "Hundreds",
+      "Thousands"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203067,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "How are silkworm eggs stored for sericulture?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "On Cloth",
+    "answerChoices": [
+      "On leaves",
+      "On Cloth",
+      "In buckets",
+      "In plastic cups",
+      "In Trees"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203068,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "When are silkworm eggs moved to mulberry trees?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "When fresh leaves sprout",
+    "answerChoices": [
+      "Hot weather",
+      "Cold weather",
+      "When fresh leaves sprout",
+      "Rainy season",
+      "When birds have migrated"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203069,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 7,
+    "questionText": "Where did the silk industry begin?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "China",
+    "answerChoices": [
+      "Japan",
+      "China",
+      "India",
+      "Persia",
+      "Egypt"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203070,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 5,
+    "questionText": "How many days does it take for caterpillars to stop eating leaves?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "25-30 days",
+    "answerChoices": [
+      "5-10 days",
+      "10-15 days",
+      "6-8 months",
+      "25-30 days",
+      "3-4 months"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203071,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 3,
+    "questionText": "How are silk fibres separated from cocoons?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "All of the above",
+    "answerChoices": [
+      "Kept under sun",
+      "Exposed to steam",
+      "Boiled",
+      "All of the above"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203072,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 4,
+    "questionText": "What is the process of taking out threads from the cocoon for use as silk called?",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Reeling",
+    "answerChoices": [
+      "Reeling",
+      "Rearing",
+      "Peeling",
+      "Pressuring",
+      "Pruning",
+      "Peering"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203073,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 6,
+    "questionText": "The silkworm is (a) a caterpillar, (b) a larva. Choose the correct option.",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "Both a and b",
+    "answerChoices": [
+      "a",
+      "b",
+      "Both a and b",
+      "Neither a nor b"
+    ]
+  },
+  {
+    "questionType": 0,
+    "questionID": 70203074,
+    "questionSub": 702,
+    "questionChapter": 70203,
+    "questionDifficulty": 10,
+    "questionText": "Out of the following, which are term related to silk production?\nfloriculture, moriculture, apiculture and silviculture.\nHints: (i) Silk production involves cultivation of mulberry leaves and rearing silkworms.\n          (ii) Scientific name of mulberry is Morus alba.",
+    "questionImage": {
+      "instanceID": 0
+    },
+    "questionAudio": {
+      "instanceID": 0
+    },
+    "correctAnswerKey": "moriculture",
+    "answerChoices": [
+      "apiculture",
+      "floriculture",
+      "moriculture",
+      "silviculture"
+    ]
+  }
+]}
