@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{AFF8BF7C-D1BC-9E47-8BD6-0BC43981243C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Game.cs" Line="36" Column="46" />
+      <File FileName="Assets/Scripts/Question.cs" Line="18" Column="20" />
+      <File FileName="Assets/Scripts/AnswerChoice.cs" Line="8" Column="27" />
+      <File FileName="Assets/Scripts/QuestionUI.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="15" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Super Quiz" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Game.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>questions</Value>
+          <Value>sub</Value>
+          <Value>chap</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c06f4bd9-eca8-48f3-9ffb-9a39417aec4b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
