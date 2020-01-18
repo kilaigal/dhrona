@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{AFF8BF7C-D1BC-9E47-8BD6-0BC43981243C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/QuestionUI.cs">
     <Files>
-      <File FileName="Assets/Scripts/Game.cs" Line="36" Column="46" />
-      <File FileName="Assets/Scripts/Question.cs" Line="18" Column="20" />
-      <File FileName="Assets/Scripts/AnswerChoice.cs" Line="8" Column="27" />
-      <File FileName="Assets/Scripts/QuestionUI.cs" Line="34" Column="1" />
-      <File FileName="Assets/Scripts/MainMenu.cs" Line="15" Column="38" />
+      <File FileName="Assets/Scripts/Game.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/Question.cs" />
+      <File FileName="Assets/Scripts/AnswerChoice.cs" />
+      <File FileName="Assets/Scripts/QuestionUI.cs" Line="58" Column="14" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="14" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
           <Node name="Super Quiz" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Game.cs" selected="True" />
+                <Node name="QuestionUI.cs" selected="True" />
               </Node>
             </Node>
           </Node>

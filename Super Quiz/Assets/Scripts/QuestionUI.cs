@@ -25,10 +25,17 @@ public class QuestionUI : MonoBehaviour
         // Creating a new array of 4 answers including the correct ans in random order
         //
         crct_ans_tmp_array = new AnswerChoice[] { new AnswerChoice { answerID = question.correctAnswerID, answerChoice = question.correctAnswerKey } };
+        ans_tmp = ans_tmp.Where(u => u.answerChoice != null).ToArray();
 
+        
 
+        // Only non-empty options
+
+        ans_tmp=ans_tmp.Where(u => string.IsNullOrEmpty(u.answerChoice) != true).ToArray();
+
+       
         // correct ans combined with all available options
-        var combined_ans_array_tmp = crct_ans_tmp_array.Concat(ans_tmp).ToArray();
+        combined_ans_array_tmp = crct_ans_tmp_array.Concat(ans_tmp).ToArray();
 
 
 
@@ -46,13 +53,15 @@ public class QuestionUI : MonoBehaviour
 
         }
 
+     
+
 
         for (int i = 0; i < combined_ans_array.Length; i++)
         {
             answer = combined_ans_array[i].answerChoice;
             if (string.IsNullOrEmpty(answer))
             {
-                //Do not create answers
+                // Do nothing
             }
             else
             {
