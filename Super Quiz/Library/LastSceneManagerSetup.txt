@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Modified1.unity
+- path: Assets/Plugins/SmartLevelsMap/Demo/demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

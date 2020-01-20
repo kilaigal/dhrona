@@ -9,7 +9,7 @@ public class Question
     public QuestionType questionType;
     public int questionID;
     public int questionSub;
-    public string questionChapter;
+    public int questionChapter;
     public float questionDifficulty;
     public string questionText;
     public Sprite questionImage;

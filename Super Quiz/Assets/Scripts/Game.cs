@@ -25,8 +25,11 @@ public class Game : MonoBehaviour
     private Question[] allRoundData;
     private PlayerProgress playerProgress;
     private Question[] questions;
-
+    public Question[] allavailablequestions;
     private string gameDataFileName = "data.json";
+
+    public int next_Question_index;
+    private int q_id;
 
     private int correctAnswers;
     // Start is called before the first frame update
@@ -37,13 +40,31 @@ public class Game : MonoBehaviour
         LoadGameData();
         LoadPlayerProgress();
         LoadQuestionSet();
-        UseQuestionTemplate(currentQuestion.questionType);
+        if (questions.Length != 0)
+        {
+            UseQuestionTemplate(currentQuestion.questionType);
+        }
     }
 
     void LoadQuestionSet()
     {
+
+        questions = GetQuestionSubset(sub, chap);
+
+        if (questions.Length == 0)
+        {
+            Debug.Log("No Questions for this chapter");
+            ReturntoMain();
+            return;
+        }
+
+        q_id = questions[0].questionID;   // Initializing to first question available.
+        // Will be modified to provide questionID of the correct level difficulty question. 
+        
+        //Need a function that would take a question id and spit out it's index in question array
+        next_Question_index = NextQuestionIdx(q_id);
         // Initial Question
-        currentQuestion = questions[0];
+        currentQuestion = questions[next_Question_index];
     }
 
     public void ReturntoMain()
@@ -89,7 +110,8 @@ public class Game : MonoBehaviour
             GameData loadedData = JsonUtility.FromJson<GameData>(dataAsJson);
 
             // Retrieve the allRoundData property of loadedData
-            questions = loadedData.allRoundData;
+            allavailablequestions = loadedData.allRoundData;
+            
         }
         else
         {
@@ -133,7 +155,12 @@ public class Game : MonoBehaviour
         if (currentQuestionIndex < questions.Length-1)
         {
             currentQuestionIndex++;
-            currentQuestion = questions[currentQuestionIndex];
+            q_id = questions[currentQuestionIndex].questionID;   // Initializing to next question in array.
+             //Will be modified to take input from a function that spits out questionID of the next question to ask.
+            next_Question_index = NextQuestionIdx(q_id);
+            // Initial Question
+
+            currentQuestion = questions[next_Question_index];
             UseQuestionTemplate(currentQuestion.questionType);
         }
         else
@@ -157,4 +184,33 @@ public class Game : MonoBehaviour
         NextQuestion();
         
     }
+
+public int NextQuestionIdx(int q_id)
+    {
+        var next_Question_index = Array.FindIndex(questions, row => row.questionID == q_id);
+
+        if (next_Question_index != -1)
+        { return next_Question_index; }
+        else
+        {
+            Debug.LogError("Cannot find question!");
+            next_Question_index = 0;
+            return next_Question_index;  
+        }
+    }
+
+
+
+    public Question[] GetQuestionSubset(int sub, int chap)
+
+    {
+        //hard coded initializing. Will be modified by user selection in previous scenes.
+        sub =702;
+        chap = 70203;
+        Question[] questions = Array.FindAll(allavailablequestions,c => c.questionSub == sub && c.questionChapter == chap);
+        return questions;
+
+    }
+
+
 }

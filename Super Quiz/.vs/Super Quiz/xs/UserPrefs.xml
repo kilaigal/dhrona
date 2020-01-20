@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{AFF8BF7C-D1BC-9E47-8BD6-0BC43981243C}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/QuestionUI.cs">
     <Files>
-      <File FileName="Assets/Scripts/Game.cs" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/Question.cs" />
-      <File FileName="Assets/Scripts/AnswerChoice.cs" />
-      <File FileName="Assets/Scripts/QuestionUI.cs" Line="58" Column="14" />
+      <File FileName="Assets/Scripts/Game.cs" Line="56" Column="28" />
+      <File FileName="Assets/Scripts/Question.cs" Line="12" Column="32" />
+      <File FileName="Assets/Scripts/QuestionUI.cs" Line="11" Column="1" />
       <File FileName="Assets/Scripts/MainMenu.cs" Line="14" Column="6" />
     </Files>
     <Pads>
@@ -19,18 +18,11 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>questions</Value>
-          <Value>sub</Value>
-          <Value>chap</Value>
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c06f4bd9-eca8-48f3-9ffb-9a39417aec4b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="14972b5c-f290-4f46-927d-fa05b4ae062d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
