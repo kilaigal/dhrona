@@ -67,14 +67,23 @@
     <Compile Include="Assets\Scripts\AnswerButton.cs" />
     <Compile Include="Assets\Scripts\AnswerChoice.cs" />
     <Compile Include="Assets\Scripts\AudioQuestion.cs" />
+    <Compile Include="Assets\Scripts\ChapterClass.cs" />
+    <Compile Include="Assets\Scripts\ChapterSelector.cs" />
     <Compile Include="Assets\Scripts\Game.cs" />
+    <Compile Include="Assets\Scripts\GameData Chap.cs" />
+    <Compile Include="Assets\Scripts\GameData Sub.cs" />
     <Compile Include="Assets\Scripts\GameData.cs" />
     <Compile Include="Assets\Scripts\GameDataEditor.cs" />
     <Compile Include="Assets\Scripts\ImageCaptionQuestion.cs" />
+    <Compile Include="Assets\Scripts\LoginRegister.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PageSwiper.cs" />
+    <Compile Include="Assets\Scripts\PlayerInfo.cs" />
     <Compile Include="Assets\Scripts\PlayerProgress.cs" />
     <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\Scripts\QuestionUI.cs" />
+    <Compile Include="Assets\Scripts\SubjectClass.cs" />
+    <Compile Include="Assets\Scripts\SubSelector.cs" />
     <Compile Include="Assets\Scripts\TextQuestion.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -85,6 +94,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -642,6 +652,24 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.17f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{4AECF799-7619-B17C-1A5C-95CA854486C9}</Project>
+      <Name>PlayFab</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{7523805A-0C8F-CBB8-A3DB-1221C2C40BD4}</Project>
+      <Name>PlayFabSDKEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabTestingEditor.csproj">
+      <Project>{DDF45505-D601-41AB-190B-5911057C4F69}</Project>
+      <Name>PlayFabTestingEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{2FDA98A8-23D3-03A0-D390-9AF596DF71C4}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

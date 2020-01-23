@@ -638,7 +638,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.23909755, g: 0.24517179, b: 0.254717, a: 0}
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -655,7 +655,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 55.689026
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -879,7 +879,7 @@ RectTransform:
   m_GameObject: {fileID: 660213445}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0317644, y: 1.0580504, z: 1.0580504}
   m_Children:
   - {fileID: 624313757}
   - {fileID: 543776307}
@@ -887,10 +887,10 @@ RectTransform:
   m_Father: {fileID: 1298895702}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 54.8, y: 161.48}
-  m_SizeDelta: {x: 1211.4, y: 444.1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 75}
+  m_SizeDelta: {x: 1200, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &660213447
 MonoBehaviour:
@@ -905,7 +905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.019607844}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -935,7 +935,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 660213446}
     m_Modifications:
+    - target: {fileID: 1724924502863426, guid: f8fa5b600ed9b954984fa0247cb32b35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1740823449150188, guid: f8fa5b600ed9b954984fa0247cb32b35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998455972440316, guid: f8fa5b600ed9b954984fa0247cb32b35, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1064,6 +1072,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 224223169035154752, guid: f8fa5b600ed9b954984fa0247cb32b35,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9875
+      objectReference: {fileID: 0}
+    - target: {fileID: 224223169035154752, guid: f8fa5b600ed9b954984fa0247cb32b35,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.82498
+      objectReference: {fileID: 0}
     - target: {fileID: 224476151411202116, guid: f8fa5b600ed9b954984fa0247cb32b35,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1114,15 +1132,15 @@ RectTransform:
   m_GameObject: {fileID: 1015535839}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0347, y: 1.0347, z: 1.0347}
   m_Children: []
   m_Father: {fileID: 1298895702}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -45.200012, y: -218.2}
-  m_SizeDelta: {x: 1211.4, y: 315.1}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: -150}
+  m_SizeDelta: {x: 1200, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1015535841
 MonoBehaviour:
@@ -1162,7 +1180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.09019608}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.078431375}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1722,6 +1740,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 82576909059312626, guid: 7671bde6652794d4bbeccdaf759e7905,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 198.30908
+      objectReference: {fileID: 0}
     - target: {fileID: 114480900324099222, guid: 7671bde6652794d4bbeccdaf759e7905,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -1837,6 +1860,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 224412571350014426, guid: 7671bde6652794d4bbeccdaf759e7905,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.77498
+      objectReference: {fileID: 0}
     - target: {fileID: 224738094545164582, guid: 7671bde6652794d4bbeccdaf759e7905,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1917,6 +1945,8 @@ MonoBehaviour:
   questionScreen: {fileID: 1298895702}
   scoreStats: {fileID: 384078037}
   scorePercentage: {fileID: 274618326}
+  allavailablequestions: []
+  next_Question_index: 0
 --- !u!4 &2062035014
 Transform:
   m_ObjectHideFlags: 0

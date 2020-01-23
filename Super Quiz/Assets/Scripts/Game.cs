@@ -22,11 +22,10 @@ public class Game : MonoBehaviour
     [SerializeField]
     private TMPro.TextMeshProUGUI scoreStats, scorePercentage;
 
-    private Question[] allRoundData;
     private PlayerProgress playerProgress;
     private Question[] questions;
     public Question[] allavailablequestions;
-    private string gameDataFileName = "data.json";
+    private readonly string gameDataFileName = "data.json";
 
     public int next_Question_index;
     private int q_id;
@@ -48,8 +47,10 @@ public class Game : MonoBehaviour
 
     void LoadQuestionSet()
     {
-
-        questions = GetQuestionSubset(sub, chap);
+        //hard coded initializing. Will be modified by user selection in previous scenes.
+        //sub = 702;
+        //chap = 70203;
+        questions = GetQuestionSubset();
 
         if (questions.Length == 0)
         {
@@ -201,12 +202,10 @@ public int NextQuestionIdx(int q_id)
 
 
 
-    public Question[] GetQuestionSubset(int sub, int chap)
+    public Question[] GetQuestionSubset()
 
     {
-        //hard coded initializing. Will be modified by user selection in previous scenes.
-        sub =702;
-        chap = 70203;
+       
         Question[] questions = Array.FindAll(allavailablequestions,c => c.questionSub == sub && c.questionChapter == chap);
         return questions;
 
