@@ -16,6 +16,7 @@ public class Game : MonoBehaviour
     private Transform questionPanel;
     [SerializeField]
     private Transform answerPanel;
+    
 
     [SerializeField]
     private Transform scoreScreen, questionScreen;

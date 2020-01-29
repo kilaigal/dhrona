@@ -18,6 +18,7 @@ public class QuestionUI : MonoBehaviour
     private AnswerChoice[] combined_ans_array;
 
     public virtual void UpdateQuestionInfo(Question question)
+
     {
         question.answerChoices = question.answerChoices.OrderBy(answer => UnityEngine.Random.value).ToArray();
         ans_tmp = question.answerChoices;

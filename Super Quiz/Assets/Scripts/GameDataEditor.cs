@@ -15,44 +15,52 @@ public class GameDataEditor : EditorWindow
     private string gameDataProjectFilePathChap = "/StreamingAssets/datachap.json";
 
     [MenuItem("Window/Game Data Editor")]
-    static void Init()
-    {
-        EditorWindow.GetWindow(typeof(GameDataEditor)).Show();
-    }
+    static void Init() => EditorWindow.GetWindow(typeof(GameDataEditor)).Show();
 
-    void OnGUI()
-    {
-        if (gameData != null)
+
+    Vector2 scrollPos;
+        
+
+        void OnGUI()
         {
-            SerializedObject serializedObject = new SerializedObject(this);
-            SerializedProperty serializedProperty = serializedObject.FindProperty("gameData");
-            EditorGUILayout.PropertyField(serializedProperty, true);
-
-            // Sub
-            SerializedObject serializedObject1 = new SerializedObject(this);
-            SerializedProperty serializedProperty1 = serializedObject.FindProperty("gameDataSub");
-            EditorGUILayout.PropertyField(serializedProperty1, true);
-
-            // Chap
-            SerializedObject serializedObject2 = new SerializedObject(this);
-            SerializedProperty serializedProperty2 = serializedObject.FindProperty("gameDataChap");
-            EditorGUILayout.PropertyField(serializedProperty2, true);
-
-
-
-            serializedObject.ApplyModifiedProperties();
-
-            if (GUILayout.Button("Save data"))
+            EditorGUILayout.BeginVertical();
+            scrollPos =
+                EditorGUILayout.BeginScrollView(scrollPos);
+            if (gameData != null)
             {
-                SaveGameData();
-            }
-        }
+                SerializedObject serializedObject = new SerializedObject(this);
+                SerializedProperty serializedProperty = serializedObject.FindProperty("gameData");
+                EditorGUILayout.PropertyField(serializedProperty, true);
 
-        if (GUILayout.Button("Load data"))
-        {
-            LoadGameData();
-        }
+                // Sub
+                SerializedObject serializedObject1 = new SerializedObject(this);
+                SerializedProperty serializedProperty1 = serializedObject.FindProperty("gameDataSub");
+                EditorGUILayout.PropertyField(serializedProperty1, true);
+
+                // Chap
+                SerializedObject serializedObject2 = new SerializedObject(this);
+                SerializedProperty serializedProperty2 = serializedObject.FindProperty("gameDataChap");
+                EditorGUILayout.PropertyField(serializedProperty2, true);
+
+
+
+                serializedObject.ApplyModifiedProperties();
+
+                if (GUILayout.Button("Save data"))
+                {
+                    SaveGameData();
+                }
+            }
+
+            if (GUILayout.Button("Load data"))
+            {
+                LoadGameData();
+            }
+        EditorGUILayout.EndScrollView();
+
     }
+
+
 
     private void LoadGameData()
     {

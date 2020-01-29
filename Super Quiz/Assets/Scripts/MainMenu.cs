@@ -7,14 +7,14 @@ public class MainMenu : MonoBehaviour
 {
     public void ContinueGame()
     {
-        SceneManager.LoadScene("Question");
+        SceneManager.LoadScene("SubjectSelect");
     }
 
     public void NewGame()
     {
-        PlayerPrefs.SetInt("sub", 1);
-        PlayerPrefs.SetInt("chap", 1);
-        SceneManager.LoadScene("Question");
+        PlayerPrefs.SetInt("sub", 702);
+        PlayerPrefs.SetInt("chap", 70201);
+        SceneManager.LoadScene("SubjectSelect");
     }
 
 }

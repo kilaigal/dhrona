@@ -26,6 +26,7 @@ public class ChapterSelector : MonoBehaviour
     public int sub;
     public ChapterClass[] currentSubChaplist;
     private int numberOfLevels;
+    public string currentchaptitle;
 
     // Start is called before the first frame update
     void Start()
@@ -97,7 +98,9 @@ public class ChapterSelector : MonoBehaviour
         chap =currentSubChaplist[index].ChapterID;
         PlayerPrefs.SetInt("sub", sub);
         PlayerPrefs.SetInt("chap", chap);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Question");
+        currentchaptitle= currentSubChaplist[index].ChapterTitle;
+        PlayerStats.ChapTitle = currentchaptitle;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("QuestionSelect");
 
     }
 
