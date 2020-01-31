@@ -113,7 +113,6 @@ public class ChapterSelector : MonoBehaviour
 
             PlayerStatsClass[] history = Array.FindAll(allhistory, c => c.sub == sub && c.chap == chap);
             int[] idx = allhistory.Select((c, i) => c.sub == sub && c.chap == chap ? i : -1).Where(i => i != -1).ToArray();
-            Debug.Log(idx.Length);
             if (history != null)
             {
                 if (idx != null)
@@ -121,6 +120,7 @@ public class ChapterSelector : MonoBehaviour
                     if (idx.Length != 0)
                     {
                         PlayerStats.QuestionHistory[idx[idx.Length - 1]].isQCurrent = 1;// setting last question to be current
+                        PlayerStats.Curidx = idx.Length - 1;
                     }
                 }
             }

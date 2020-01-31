@@ -53,7 +53,7 @@ public class QuestionSelector : MonoBehaviour
             return;
         }
         panelDimensions = levelHolder.GetComponent<RectTransform>().rect;
-        amountPerPage = 18;
+        amountPerPage = 8;
         int totalPages = Mathf.CeilToInt((float)numberOfLevels / amountPerPage);
         int screenW = Screen.width;
         //float orig_aspect = 2583f / 5556.706f;
@@ -68,7 +68,6 @@ public class QuestionSelector : MonoBehaviour
         history=NextQID.GetHistory();
         if (history == null)
         {
-            Debug.Log("Null");
             Image[] img1 = buttons[0].GetComponentsInChildren<Image>();
 
             for (int i = 0; i <= buttons.Length - 1; i++)
@@ -147,6 +146,38 @@ public class QuestionSelector : MonoBehaviour
                 }
             }
         }
+
+        // Move canvas to have current question in view
+
+        int pos4 = 3770;  // for chests 9&10
+        int off1 = Mathf.FloorToInt((PlayerStats.Curidx) / 8);
+        float totaloff = (off1 * pos4 + getoffset(PlayerStats.Curidx+1 - (off1 * 8)))*scalerat;
+
+        totalcontainer.GetComponent<RectTransform>().anchoredPosition = new Vector3(0, totaloff, 0);
+
+
+        int getoffset(int diff)
+        {
+            int pos1 = 1050;  // for chests 3&4
+            int pos2 = 1700;  // for chests 5&6
+            int pos3 = 2500;  // for chests 7&8
+
+
+            if (diff<5 && diff>2)  // 3-4
+            { return pos1; }
+            if (diff < 7 && diff > 4)  // 3-4
+            { return pos2; }
+            if (diff < 9 && diff > 6)  // 3-4
+            { return pos3; }
+            else
+            { return 0; }
+
+        }
+
+
+
+
+
 
     }
 
