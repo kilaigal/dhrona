@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{AFF8BF7C-D1BC-9E47-8BD6-0BC43981243C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChapterSelector.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Game.cs" Line="217" Column="1" />
+      <File FileName="Assets/Scripts/QuestionSelector.cs" Line="90" Column="1" />
+      <File FileName="Assets/Scripts/NextQID.cs" Line="66" Column="1" />
+      <File FileName="Assets/Scripts/SubSelector.cs" Line="93" Column="31" />
+      <File FileName="Assets/Scripts/ChapterSelector.cs" Line="116" Column="1" />
+      <File FileName="Assets/Scripts/PlayerStats.cs" Line="84" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Super Quiz" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="PlayFabEditorExtensions" expanded="True">
+                <Node name="Editor" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Panels" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="ChapterSelector.cs" selected="True" />
+              </Node>
+              <Node name="TextMesh Pro" expanded="True">
+                <Node name="Resources" expanded="True">
+                  <Node name="Shaders" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ddbe09e5-2721-4b40-99c9-ffd9fc54b2d6" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/arvind/Desktop/Dhrona/Super Quiz/Assets/Scripts/GameDataEditor.cs" relfile="Assets/Scripts/GameDataEditor.cs" line="37" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
