@@ -77,7 +77,7 @@ public class QuestionSelector : MonoBehaviour
                 img[4].gameObject.SetActive(false); // avatars disabled for all questions
                 int copy = i;
                 buttons[i].onClick.AddListener(() => ChestButtonClick(copy));
-
+                buttons[i].gameObject.AddComponent<ChestHover>();
             }
             img1[3].gameObject.SetActive(false);// lock disabled for first question.
             img1[4].gameObject.SetActive(true);// Avatar on for first question.
@@ -148,10 +148,11 @@ public class QuestionSelector : MonoBehaviour
         }
 
         // Move canvas to have current question in view
+        var curIdx = Array.FindIndex(history, row => row.isQCurrent == 1);
 
         int pos4 = 3770;  // for chests 9&10
-        int off1 = Mathf.FloorToInt((PlayerStats.Curidx) / 8);
-        float totaloff = (off1 * pos4 + getoffset(PlayerStats.Curidx+1 - (off1 * 8)))*scalerat;
+        int off1 = Mathf.FloorToInt((curIdx) / 8);
+        float totaloff = (off1 * pos4 + getoffset(curIdx + 1 - (off1 * 8)))*scalerat;
 
         totalcontainer.GetComponent<RectTransform>().anchoredPosition = new Vector3(0, totaloff, 0);
 
@@ -173,15 +174,9 @@ public class QuestionSelector : MonoBehaviour
             { return 0; }
 
         }
-
-
-
-
-
-
     }
 
-
+   
     private void ChestButtonClick(int chestidx)
     {
         Button[] buttons = totalcontainer.GetComponentsInChildren<Button>();

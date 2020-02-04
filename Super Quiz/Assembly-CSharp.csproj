@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\ChapterBackButton.cs" />
     <Compile Include="Assets\Scripts\ChapterClass.cs" />
     <Compile Include="Assets\Scripts\ChapterSelector.cs" />
+    <Compile Include="Assets\Scripts\ChestHover.cs" />
     <Compile Include="Assets\Scripts\Game.cs" />
     <Compile Include="Assets\Scripts\GameData Chap.cs" />
     <Compile Include="Assets\Scripts\GameData Sub.cs" />
