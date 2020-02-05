@@ -186,7 +186,7 @@ public class Game : MonoBehaviour
 
     void NextQuestion()
     {
-        if (currentQuestionIndex < questions.Length-1)
+        if (PlayerStats.Curidx < questions.Length-1)
         {
             PlayerStats.Curidx+=1;
             NextQID.getnextid();

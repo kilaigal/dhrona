@@ -16,9 +16,12 @@ public class QuestionSelector : MonoBehaviour
     public GameObject totalcontainer;
     public GameObject bckgrndImage;
     public GameObject sidepanel;
+    public GameObject WelcomePanel;
     public Question[] questions;
     private Question[] allavailablequestions;
     public TextMeshProUGUI questiontext;
+    public TextMeshProUGUI welcometext;
+    public Button explorebutton;
     public int chap;
     //public int numberOfLevels = 50;
     //public Vector2 iconSpacing;
@@ -34,18 +37,23 @@ public class QuestionSelector : MonoBehaviour
     private float scalerat;
     private PlayerStatsClass[] history;
     private PlayerStatsClass newentry;
-
+    public int curIdx;
 
     // Start is called before the first frame update
     void Start()
     {
+
         sub = PlayerPrefs.GetInt("sub", 702);
         chap = PlayerPrefs.GetInt("chap", 70201);
-        
-        questiontext.text= PlayerStats.ChapTitle;
+
+        questiontext.text = PlayerStats.ChapTitle;
+        string chptitle= PlayerStats.ChapTitle;
+        string weltxt = "Welcome To The " + chptitle + " Islands Curious Explorer!";
+        welcometext.text = weltxt;
         LoadGameData();
         questions = GetQuestionSubset();
         numberOfLevels = questions.Length;
+
         if (numberOfLevels == 0)
         {
             Debug.Log("No Questions for this chapter");
@@ -58,20 +66,26 @@ public class QuestionSelector : MonoBehaviour
         int screenW = Screen.width;
         //float orig_aspect = 2583f / 5556.706f;
         bkgwidth = bckgrndImage.GetComponent<RectTransform>().rect.width;
-        scalerat = screenW/bkgwidth;
+        scalerat = screenW / bkgwidth;
         totalcontainer.GetComponent<RectTransform>().localScale = new Vector3(scalerat, scalerat, 0);
-        float TotY =  (totalPages * panelDimensions.height);
+        float TotY = (totalPages * panelDimensions.height);
         totalcontainer.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, TotY);
         LoadPanels(totalPages);
         levelHolder.SetActive(false);
-        Button[] buttons=totalcontainer.GetComponentsInChildren<Button>();
-        history=NextQID.GetHistory();
+        Button[] buttons = totalcontainer.GetComponentsInChildren<Button>();
+        //delete buttons more than number of questions
+        for (int i = numberOfLevels; i <= buttons.Length-1; i++)
+        {
+            Destroy(buttons[i].gameObject);
+        }
+        history = NextQID.GetHistory();
         if (history == null)
         {
             Image[] img1 = buttons[0].GetComponentsInChildren<Image>();
 
-            for (int i = 0; i <= buttons.Length - 1; i++)
+            for (int i = 0; i <= numberOfLevels - 1; i++)
             {
+                Debug.Log(i);
                 Image[] img = buttons[i].GetComponentsInChildren<Image>();
                 img[2].gameObject.SetActive(false); // star disabled for all questions
                 img[4].gameObject.SetActive(false); // avatars disabled for all questions
@@ -147,8 +161,16 @@ public class QuestionSelector : MonoBehaviour
             }
         }
 
-        // Move canvas to have current question in view
-        var curIdx = Array.FindIndex(history, row => row.isQCurrent == 1);
+        if (history != null)
+        { 
+            // Move canvas to have current question in view
+            curIdx = Array.FindIndex(history, row => row.isQCurrent == 1);
+            
+        }
+        else
+        {
+             curIdx = 0;
+        }
 
         int pos4 = 3770;  // for chests 9&10
         int off1 = Mathf.FloorToInt((curIdx) / 8);
@@ -176,7 +198,7 @@ public class QuestionSelector : MonoBehaviour
         }
     }
 
-   
+  
     private void ChestButtonClick(int chestidx)
     {
         Button[] buttons = totalcontainer.GetComponentsInChildren<Button>();
@@ -223,7 +245,12 @@ public class QuestionSelector : MonoBehaviour
         //grid.spacing = iconSpacing;
 
     }
-    
+
+    public void DestroyWelcome()
+
+    {
+        Destroy(WelcomePanel);
+    }
 
 
     public void ReturntoMain()

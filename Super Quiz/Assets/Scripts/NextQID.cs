@@ -27,7 +27,7 @@ public static class NextQID
 
         
     int chestidx = PlayerStats.Curidx;
-   
+
 
         questions = GetQuestionSubset();
         PlayerStatsClass[] allhistory = PlayerStats.QuestionHistory;
